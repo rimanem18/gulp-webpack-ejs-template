@@ -1,0 +1,16 @@
+<%
+const ROOT = `${process.cwd()}/src/ejs/`;
+const page = {
+  title: site.name,
+  url: site.rootUrl,
+  description: "TOP ページのディスクリプション",
+  ogpType: "website",
+  ogpImage: site.ogpImage,
+};
+-%>
+<%- include(ROOT + '_header', {page: page}); %>
+<div>
+	<p>Hello</p>
+	<a href="/subpage/">下層ページ</a>
+</div>
+<%- include(ROOT + '_footer', {page: page}); %>

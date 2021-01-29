@@ -1,0 +1,12 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features" // HTMLはデフォルトのフォーマッタで
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // フォーマッタをprettierに指定
+    },
+    "editor.formatOnSave": true, // ファイル保存時にフォーマット
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true // ファイル保存時にESLintでフォーマット
+    }
+}

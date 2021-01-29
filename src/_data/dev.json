@@ -1,0 +1,9 @@
+{
+    "name": "Site Title",
+    "description": "Site Description",
+    "keywords": "Site Keyword1, Site Keyword2",
+    "rootUrl": "http://localhost:3000",
+    "ogpImage": "http://localhost:3000/ogp-image.jpg",
+    "twitter": "RimaneM18",
+    "copyright": "&copy; Rimane"
+}
